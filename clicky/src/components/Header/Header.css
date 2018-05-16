@@ -1,14 +1,17 @@
 .header {
     width: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 2rem;
-    color: #4141f4;
+    color:#2F4F4F;
     margin-bottom: 10px;
   }
   
   .title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     float: left;
   }
   
   .scores {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     float: right;
   }
