@@ -2,73 +2,73 @@
     {
       "id": 1,
       "name": "Gummy Bears",
-      "image": "./components/images/gummy.png",
+      "image": "../images/gummy.png",
       "count": 0
     },
     {
       "id": 2,
       "name": "Lollipop",
-      "image": "./components/images/lollipop.png",
+      "image": "../images/lollipop.png",
       "count": 0
     },
     {
       "id": 3,
       "name": "M & M's",
-      "image": "./components/images/m&m.png",
+      "image": "../images/m&m.png",
       "count": 0
     },
     {
       "id": 4,
       "name": "Candy Canes",
-      "image": "./components/images/candycane.png",
+      "image": "../images/candycane.png",
       "count": 0
     },
     {
       "id": 5,
       "name": "Chocolate",
-      "image": "./components/images/chocolate.png",
+      "image": "../images/chocolate.png",
       "count": 0
     },
     {
       "id": 6,
       "name": "Peppermints",
-      "image": "./components/images/peppermint.png",
+      "image": "../images/peppermint.png",
       "count": 0
     },
     {
       "id": 7,
       "name": "Hot Tamales",
-      "image": "./components/images/hottamales.png",
+      "image": "../images/hottamales.png",
       "count": 0
     },
     {
       "id": 8,
       "name": "Lemonheads",
-      "image": "./components/images/lemonhead.png",
+      "image": "../images/lemonhead.png",
       "count": 0
     },
     {
       "id": 9,
       "name": "Gum Drops",
-      "image": "./components/images/gumdrop.png",
+      "image": "../images/gumdrop.png",
       "count": 0
     },
     {
       "id": 10,
       "name": "Hershey's Kiss",
-      "image": "./components/images/kiss.png",
+      "image": "../images/kiss.png",
       "count": 0
     },
     {
       "id": 11,
       "name": "Purple Hershey's Kisses",
-      "image": "./components/images/lotsokisses.png",
+      "image": "../images/lotsokisses.png",
       "count": 0
     },
     {
       "id": 12,
       "name": "Chocolate Shavings",
-      "image": "./components/images/curlychoc.png",
+      "image": "../images/curlychoc.png",
       "count": 0
     }
   ]
