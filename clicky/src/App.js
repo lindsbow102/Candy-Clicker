@@ -48,7 +48,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Candy Clicker Game</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}><strong>Candy Clicker:</strong> Don't Click an Image Twice!</Header>
         {this.state.candy.map(card => (
           <Card
             clickCount={this.clickCount}
