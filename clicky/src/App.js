@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
-import cards from "./cards.json";
+import candy from "./candy.json";
 import './App.css';
 
 class App extends Component {
-  // Setting this.state.cards to the cards json array
+  // Setting this.state.candy to the candy json array
   state = {
-    cards,
+    candy,
     score: 0,
     highscore: 0
   };
@@ -19,7 +19,7 @@ class App extends Component {
         console.log(this.state.highscore);
       });
     }
-    this.state.cards.forEach(card => {
+    this.state.candy.forEach(card => {
       card.count = 0;
     });
     alert(`Game Over :( \nscore: ${this.state.score}`);
@@ -28,14 +28,14 @@ class App extends Component {
   }
 
   clickCount = id => {
-    this.state.cards.find((o, i) => {
+    this.state.candy.find((o, i) => {
       if (o.id === id) {
-        if(cards[i].count === 0){
-          cards[i].count = cards[i].count + 1;
+        if(candy[i].count === 0){
+          candy[i].count = candy[i].count + 1;
           this.setState({score : this.state.score + 1}, function(){
             console.log(this.state.score);
           });
-          this.state.cards.sort(() => Math.random() - 0.5)
+          this.state.candy.sort(() => Math.random() - 0.5)
           return true; 
         } else {
           this.gameOver();
@@ -44,12 +44,12 @@ class App extends Component {
     });
   }
 
-  // Map over this.state.cards and render a cardCard component for each card object
+  // Map over this.state.candy and render a cardCard component for each card object
   render() {
     return (
       <Wrapper>
         <Header score={this.state.score} highscore={this.state.highscore}>Candy Clicker Game</Header>
-        {this.state.cards.map(card => (
+        {this.state.candy.map(card => (
           <Card
             clickCount={this.clickCount}
             id={card.id}
